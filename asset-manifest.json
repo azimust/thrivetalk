@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/thrivetalk/static/css/main.64e53121.css",
+    "main.js": "/thrivetalk/static/js/main.c2646b6b.js",
+    "static/media/facts.jpg": "/thrivetalk/static/media/facts.b7f2d5f4f1ac59d1cd73.jpg",
+    "static/media/showcase-background.png": "/thrivetalk/static/media/showcase-background.b1af0e39769d40bd92d8.png",
+    "static/media/charles-etoroma.jpg": "/thrivetalk/static/media/charles-etoroma.09f43c52e6126f59fc32.jpg",
+    "static/media/nutrition.png": "/thrivetalk/static/media/nutrition.92f2062d9b35a5d3b1c6.png",
+    "static/media/why-thrive.jpg": "/thrivetalk/static/media/why-thrive.4d3263dfde8fc7a28a3c.jpg",
+    "static/media/autumn-goodman.jpg": "/thrivetalk/static/media/autumn-goodman.f41fdaa42f979b39c470.jpg",
+    "static/media/Larsseit-Thin.otf": "/thrivetalk/static/media/Larsseit-Thin.94a649e16bc767cd4fa3.otf",
+    "static/media/Larsseit.otf": "/thrivetalk/static/media/Larsseit.35897b63f00678220ece.otf",
+    "index.html": "/thrivetalk/index.html",
+    "main.64e53121.css.map": "/thrivetalk/static/css/main.64e53121.css.map",
+    "main.c2646b6b.js.map": "/thrivetalk/static/js/main.c2646b6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64e53121.css",
+    "static/js/main.c2646b6b.js"
+  ]
+}
