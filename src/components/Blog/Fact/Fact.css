@@ -1,0 +1,66 @@
+.fact__body {
+    display: flex;
+    justify-content: center;
+}
+
+.fact__img {
+    background: url('../../../assets/facts.jpg') no-repeat;
+    background-size: cover;
+    width: 480px;
+    height: 800px;
+}
+
+.fact__desc {
+    margin-top: 103px;
+    margin-bottom: 43px;
+    margin-left: 106px;
+}
+
+.fact__text {
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+}
+
+.fact__text2 {
+    margin-top: 225px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+
+    color: #22356F;
+}
+
+.fact__text2 span{
+    font-size: 35px;
+}
+
+.fact__btn {
+    margin-top: 152px;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+}
+
+@media (max-width: 1180px) {
+    .fact__img {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .fact__desc {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .fact__text2 {
+        margin-top: 45px;
+        font-size: 23px;
+    }
+}

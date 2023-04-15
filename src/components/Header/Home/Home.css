@@ -1,0 +1,98 @@
+.home__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__desc {
+    padding-top: 100px;
+    width: 484px;
+    margin: 10px;
+}
+
+.home__title {
+    margin-top: 49px;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+}
+
+.home__text {
+    margin-top: 63px;
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+}
+
+.home__buttons {
+    margin-top: 63px;
+    display: flex;
+    gap: 38px;
+}
+
+.home__buttons button {
+    width: 150px;
+    height: 50px;
+    border: none;
+
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+.who-btn {
+    background: #F9B640;
+    color: #FFFFFF;
+}
+
+.what-btn {
+    background: transparent;
+    color: #F9B640;
+}
+
+.home__img {
+    height: 800px;
+    width: 800px;
+    background: url('../../../assets/showcase-background.png') no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+@media (max-width: 1180px) {
+    .home__img {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 960px) {
+    .home__img {
+        display: none;
+    }
+}
+
+@media (max-width: 855px) {
+    .home__body{
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    .home__desc {
+        width: 100%;
+    }
+    
+    .home__title {
+        margin-top: 49px;
+        font-size: 34px;
+    }
+    
+    .home__text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .home__buttons{
+        margin-top: 30px;
+    }
+}

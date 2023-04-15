@@ -1,0 +1,84 @@
+.info__body {
+    display: flex;
+}
+
+.info__img {
+    background: url('../../../assets/autumn-goodman.jpg') no-repeat;
+    background-size: cover;
+    width: 570px;
+    height: 380px;
+}
+
+.info__desc {
+    margin-top: 98px;
+    margin-left: 68px;
+    padding: 10px 0px;
+    display: flex;
+    gap: 23px;
+}
+
+.info__item {
+    width: 240px;
+    box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+.info__title {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #22356F;
+}
+
+.info__text {
+    margin-top: 50px;
+}
+
+.info__text,
+.info__text2 {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+
+}
+
+.info__text2 {
+    margin-top: 30px;
+}
+.info__text2 span {
+    color: #006DFF;
+}
+
+@media (max-width: 1180px) {
+    .info__img {
+        display: none;
+    }
+    .info__desc {
+        margin-top: 38px;
+    }
+}
+
+@media (max-width: 960px) {
+    .info__desc {
+        margin-top: 38px;
+        margin: 0 auto;
+    }
+
+    .info__item {
+        width: 100%;
+        box-shadow: inset -1px 0px 0px rgba(0, 0, 0, 0.03);
+    }
+}
+
+@media (max-width: 600px) {
+    .info__text {
+        margin-top: 20px;
+    }
+    .info__desc {
+        margin-top: 38px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}

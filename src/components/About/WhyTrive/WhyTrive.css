@@ -1,0 +1,74 @@
+.why-trive{
+    background-color: #62D0DF;
+}
+
+.why-trive__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-trive__desk {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.why-trive__title{
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+
+.why-trive__text {
+    margin-top: 75px;
+    width: 690px;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.why-trive__text span {
+    font-family: 'Larsseit Thin';
+}
+
+.why-trive__img {
+    background: url('../../../assets/why-thrive.jpg');
+    background-position: 0%;
+    background-size: cover;
+    width: 525px;
+    height: 604px;
+}
+
+@media (max-width: 960px) {
+    .why-trive__img {
+        display: none;
+    }
+    .why-trive__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 855px) {
+    .why-trive__body {
+        justify-content: center;
+    }
+    .why-trive__title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .why-trive__title{
+        font-size: 26px;
+    }
+    
+    .why-trive__text {
+        margin-top: 35px;
+        width: 100%;
+        font-size: 18px;
+    }
+}

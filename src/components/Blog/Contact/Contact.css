@@ -1,0 +1,100 @@
+.contact {
+    background: #22356F;
+}
+
+.contact__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__desc {
+    margin-top: 103px;
+    margin-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.contact__text {
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.contact__title {
+    margin-top: 220px;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+}
+
+.contact__text2 {
+    margin-top: 75px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+}
+
+.contact__btn {
+    margin-top: 60px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    
+    color: #62D0DF;
+}
+
+.contact__img {
+    width: 480px;
+    height: 800px;
+    background: url('../../../assets/charles-etoroma.jpg') no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1180px) {
+    .contact__img {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .contact__body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__desc {
+        margin-top: 103px;
+        margin-bottom: 43px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .contact__text {
+        font-size: 13px;
+    }
+    
+    .contact__title {
+        margin-top: 50px;
+        font-size: 34px;
+    }
+    
+    .contact__text2 {
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    
+}
