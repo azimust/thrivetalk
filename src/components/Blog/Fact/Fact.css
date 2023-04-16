@@ -1,6 +1,5 @@
 .fact__body {
     display: flex;
-    justify-content: center;
 }
 
 .fact__img {
@@ -54,6 +53,10 @@
 }
 
 @media (max-width: 780px) {
+    .fact__body {
+        display: flex;
+        justify-content: center;
+    }
     .fact__desc {
         margin-left: 0px;
         text-align: center;
